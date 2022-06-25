@@ -24,33 +24,7 @@ namespace ALXCSharpCourse.Demo
             Console.WriteLine(number2);
             Console.WriteLine(number3);
 
-            /*
-             *string name1 = Console.ReadLine();
-
-            //last name 
-            Console.WriteLine("Enter last name");
-
-            string lastName1 = Console.ReadLine();
-            //phone number
-            Console.WriteLine("Enter phone number");
-            string phoneNumber1 = Console.ReadLine();
-            //height
-            Console.WriteLine("Enter height");
-            double height = Convert.ToDouble(Console.ReadLine());  
-            //address
-            Console.WriteLine("Enter streetName");
-            string streetName1 = Console.ReadLine();
-            Console.WriteLine("Enter building number ");
-            string buildingNumber1 = Console.ReadLine();
-            Console.WriteLine("Enter flat");
-            string flatName1 = Console.ReadLine();
-            Console.WriteLine("Enter postal code ");
-            string postalCode1 = Console.ReadLine();
-            Console.WriteLine("Enter city");
-            string city1 = Console.ReadLine();
-             */
-
-
+          
 
             //name
             Console.WriteLine("Personal data from \n");
@@ -82,9 +56,7 @@ namespace ALXCSharpCourse.Demo
             Console.WriteLine();
             Console.WriteLine($" {name1} {lastName1} {phoneNumber1} {height1} {streetName1}{buildingNumber1}/{flatName1} {postalCode1} {city1}");
 
-            
-
- Console.WriteLine($"Ulica {streetName1}{buildingNumber1}/{flatName1} {postalCode1} {city1}");
+           
             
             }
 
