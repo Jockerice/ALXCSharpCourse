@@ -12,9 +12,14 @@ using ALXCSharpCourse.HomeWork.M1;
 //FunctionsDemo.Run();
 //ClassesDemo.Run();
 //EnumsDemo.Run();
-
 //ConditionalsDemo.Run();
-ConditionalsDemo.RunNumberApp();
+//ConditionalsDemo.RunNumberApp();
+//ArraysAndLists.Run();
+//ArraysAndListsDemo.RunLists();
+//LoopsDemo.Run();
+//ConditionalsDemo.RunSwitch();
+GlobalAndLocalVariablesDemo.Run();
+//Console.WriteLine("Bye!");
 
 
 //Computer.Run();

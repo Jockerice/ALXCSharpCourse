@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ALXCSharpCourse.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,8 +33,8 @@ namespace ALXCSharpCourse.Demo
 
         public static void RunNumberApp()
         { 
-            Console.WriteLine("Number app");
-            Console.Write("Enter a number");
+            Console.WriteLine("Number app ");
+            Console.Write("Enter a number ");
             int x;
             bool succeeded = Int32.TryParse(Console.ReadLine(), out x);
 
@@ -49,7 +50,6 @@ namespace ALXCSharpCourse.Demo
                 {
                     Console.WriteLine($"The number {x} is odd");
                 }
-
             }
             else
             {
@@ -58,7 +58,54 @@ namespace ALXCSharpCourse.Demo
 
 
         }
+        public static void RunSwitch()
+        {
+            var sex = Sex.FAMALE;
+            switch (sex)
+            {
+                case Sex.MALE:
+                    Console.WriteLine("The sex is male");
+                    break;
 
+                case Sex.FAMALE:
+                    Console.WriteLine("The sex is famale");
+                    break;
+                case Sex.CUSTOM:
+                    Console.WriteLine("The sex is custom");
+                    break;
+
+                default:
+                    Console.WriteLine("default");
+                    break;  
+              
+              }
+            Console.WriteLine("Switch end...");
+
+
+            var number = 5;
+            switch (number)
+
+            {
+                case 0:
+                    Console.WriteLine("Hello");
+                    break;
+
+                case 1:
+                    Console.WriteLine("I am potato");
+                    break;
+                case 126:
+                    Console.WriteLine("C#...  ");
+                    break;
+
+                default:
+                    Console.WriteLine("default");
+                    break;
+
+
+            }
+            Console.WriteLine("Switch end...");
+
+
+        }
     }
-
 }
